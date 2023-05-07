@@ -1,0 +1,167 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product01.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 2,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product02.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 3,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": 1700,
+      "oldPrice": "1900.00DT",
+      "thumbnail": "../assets/product03.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 4,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product03.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 5,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": 1700,
+      "oldPrice": "1900.00DT",
+      "thumbnail": "../assets/product04.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 6,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": 1700,
+      "oldPrice": "1900.00DT",
+      "thumbnail": "../assets/product05.png",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quia nam recusandae pariatur aut, omnis quaerat at tenetur sequi ut."
+    },
+    {
+      "id": 7,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product06.png"
+    },
+    {
+      "id": 8,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": 1700,
+      "oldPrice": "1900.00DT",
+      "thumbnail": "../assets/product05.png"
+    },
+    {
+      "id": 9,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product07.png"
+    }
+  ],
+  "Newproduct": [
+    {
+      "id": 1,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product08.png"
+    },
+    {
+      "id": 2,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product02.png"
+    },
+    {
+      "id": 3,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product04.png"
+    },
+    {
+      "id": 4,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product06.png"
+    },
+    {
+      "id": 5,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": "1700.00DT",
+      "thumbnail": "../assets/product07.png"
+    }
+  ],
+  "Discount": [
+    {
+      "id": 3,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": 1700,
+      "oldPrice": "1900.00DT",
+      "thumbnail": "../assets/product03.png"
+    },
+    {
+      "id": 5,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": 1700,
+      "oldPrice": "1900.00DT",
+      "thumbnail": "../assets/product04.png"
+    },
+    {
+      "id": 6,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": 1700,
+      "oldPrice": "1900.00DT",
+      "thumbnail": "../assets/product05.png"
+    },
+    {
+      "id": 8,
+      "title": "Asus i7",
+      "category": "Laptop",
+      "price": 1700,
+      "oldPrice": "1900.00DT",
+      "thumbnail": "../assets/product05.png"
+    }
+  ]
+}

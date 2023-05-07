@@ -1,0 +1,5 @@
+<section>
+    <div class="content" *ngFor="let products of listeproduit" >
+    <app-item [data]="products" (item)="alerWithSuccess($event)"></app-item>
+    </div>
+</section>

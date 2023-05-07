@@ -1,0 +1,14 @@
+.card{
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h5 ,h6 ,h4{
+    font-family: 'Dosis';
+    font-weight: bold;
+}
