@@ -1,4 +1,15 @@
+/* .bg{
+    width: 100%;
+    height: 530px;
+    background-image: url(../../assets/omar-prestwich-Fb0fHXzXyE0-unsplash.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(1, 1, 1, 0.8);
+    background-blend-mode: darken;
 
+} */
 section{
     display: flex;
     flex-wrap: wrap;

@@ -37,30 +37,5 @@ export class ProductsService {
 
 
 
-  alerWithSuccess(event : any){
-    // JSON.stringify(); //Send data
-    // JSON.parse(); // Recive Data
-    if("cart" in localStorage){
-      this.cartProduct = JSON.parse(localStorage.getItem("cart")!)
-      let exit = this.cartProduct.find(item => item.id == event.id)
-      if(exit){
-        Swal.fire(
-          'Good job!',
-          'You clicked the button!',
-          'success'
-        )
-      }
-      else{
-        this.cartProduct.push(event)
-        localStorage.setItem("cart" ,JSON.stringify(this.cartProduct))
-      }
-    }
-      else{
-        this.cartProduct.push(event)
-        localStorage.setItem("cart" ,JSON.stringify(this.cartProduct))
-
-      }
-    
-  }
-
+  
 }

@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { faEnvelope , faPhone, faLocationArrow  } from '@fortawesome/free-solid-svg-icons';
-import { FormControl, NgForm, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, NgForm, Validators } from '@angular/forms';
 import { FormGroup } from '@angular/forms';
+import { Router } from '@angular/router';
 
-import { User } from '../model/user';
+
+import { ProductsService } from '../Services/products.service';
+import { faEnvelope, faLocationArrow, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -12,36 +14,68 @@ import { User } from '../model/user';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  faPhone=faPhone
-  faEnvelope=faEnvelope
-  faLocationArrow =faLocationArrow
+  /*
 
   user! : User;
-  reactiveForm! : FormGroup;
+  reactiveForm! : FormGroup;*/
 
+  faPhone=faPhone;
+  faEnvelope=faEnvelope;
+  faLocationArrow =faLocationArrow;
+  addContactForm:FormGroup;
 
-  constructor() { }
+  constructor(private service:ProductsService,private router:Router,private fb:FormBuilder) {
+    let formControls = {
+      nom: new FormControl('',[
+        Validators.required,
+        
+      ]),
+
+     
+      email: new FormControl('',[
+        Validators.required,
+        Validators.email,
+       
+      ]),
+
+   
+     
+      objet: new FormControl('',[
+        Validators.required,
+        
+      ]),
+
+      msg: new FormControl('',[
+        Validators.required,
+       
+      ]),
+    }
+
+     
+    this.addContactForm = this.fb.group(formControls)
+  }
+  get nom() {
+    return this.addContactForm.get('nom');
+  }
+ 
+  get email() {
+    return this.addContactForm.get('email');
+  }
+ 
+
+  get objet() {
+    return this.addContactForm.get('objet');
+  }
+
+  get msg() {
+    return this.addContactForm.get('msg');
+  }
+
+  
+
 
   ngOnInit(): void {
     window.scrollTo(0, 0);
-    this.user = new User();
-    this.reactiveForm = new FormGroup({
-      name: new FormControl(null , Validators.required),
-      email: new FormControl(null),
-      objet: new FormControl(null),
-      message: new FormControl(null),
-
-    })
-
-  }
-  save(f: NgForm) {
-    console.log(f.value['login'] ,f.value['email'] ,f.value['password']);
-
-  };
-  
-  submit({value , valid}:{value : User, valid:boolean}): void{
-    this.user = value;
-    console.log(this.user);
   }
 
 }

@@ -7,6 +7,7 @@ import { NewProductsComponent } from './new-products/new-products.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ContactComponent } from './contact/contact.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
   {path:"",component:HomeComponent},
@@ -16,8 +17,7 @@ const routes: Routes = [
   {path:"cart",component:CartComponent},
   {path:"wishlist",component:WishlistComponent},
   {path:"contact",component:ContactComponent},
-
-  {path:"**",component:HomeComponent},
+  {path:"**",component:PageNotFoundComponent},
 
 
 

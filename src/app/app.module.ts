@@ -16,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ItemComponent } from './item/item.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ItemComponent } from './item/item.component';
     ProductDetailsComponent,
     ContactComponent,
     ItemComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,

@@ -65,12 +65,16 @@ button{
     font-weight: bold;
     color: white;
 }
+button:is(:hover,:focus){
+    outline-offset: 3px;
+}
 .btnn{
     background-color: transparent;
     border: 1px solid #865DFF;
     color: black;
 
 }
+
 .buy{
     transform: translateX(30px);
 }

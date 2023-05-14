@@ -8,3 +8,6 @@
 label span{
     color: red;
 }
+.alert{
+    padding: 4px;
+}
